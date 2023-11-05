@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form{
+background-image: url("https://w0.peakpx.com/wallpaper/334/504/HD-wallpaper-sparkling-pink-abstract-background-pink-shine-sparkling.jpg");
+background-size: cover; 
+width: 1000px; 
+height: 700px;
+display: flex;
+justify-content: center;
+align-items: center; 
+}
+
+
+.barbiefrom{
+    background-color: white; 
+    width: 800px; 
+    height:500px;  
+    display: flex; 
+    align-items:center; 
+
+}
+
+img{
+    width: 350px;
+    height: 450px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+}
+
+.registrationform {
+    background-color: #fff;
+    margin-top: 20px;
+    margin-left: 80px; 
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+}
+
+    input[type=text]{
+    border: none;
+    border-bottom: 1px solid grey;
+    margin-bottom: 25px;
+
+}
+
+
+button{
+    background-color: rgb(228, 171, 228) ;
+    color: white;
+    width:  160px;
+    height: 40px;
+    margin-left:50 ;
+    cursor: pointer;
+    
+   
+}
+ .gender{
+    margin-bottom: 20px;
+    background-color:rgb(228, 171, 228) ;
+    color: white;
+    font-size: 20px;
+    padding-left: 3px;
+    padding-top: 3px;
+ }
+
